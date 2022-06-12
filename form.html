@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Confirm Password :</td>
+    <td>
+     <input type="cpassword" name="cpassword" required></td>
+    </td>
+   <td>User type :</td>
+    <td>
+      <select name="usertype">
+     <option value="usertype" disabled selected hidden>User Type</option>
+        <option class="gs" value="gs">GS</option>
+        <option value="moh officer">MOH Officer</option>
+        <option value="admin">Admin</option>
+        <optgroup label="Normal user">
+        <option value="guest">Guest</option>
+        <option value="user">User</option>
+     </optgroup>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register now</title> 
+
+   <!-- custom css file link  -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<div class="form-container">
+
+   <form action="" method="post">
+      <h3>register </h3>
+	   <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+   
+	   <input type="text" name="name" required placeholder="enter user name">
+      <input type="email" name="email" required placeholder="enter your email">
+      <input type="password" name="password" required placeholder="enter your password">
+      <input type="password" name="cpassword" required placeholder="confirm your password">
+       <select name="user_type">
+	   <option value="" disabled selected hidden>User Type</option>
+        <option class="gs" value="gs">GS</option>
+        <option value="moh officer">MOH Officer</option>
+		    <option value="admin">Admin</option>
+		    <optgroup label="Normal user">
+		    <option value="guest">Guest</option>
+		    <option value="user">User</option>
+		 </optgroup>
+      </select>
+      <input type="submit" name="submit" value="SIGN UP" class="form-btn">
+      <p>already have an account? <a href="sign_in.php"><b>Sign in</b></a></p>
+   </form>
+
+</div>
+
+</body>
+</html> 
