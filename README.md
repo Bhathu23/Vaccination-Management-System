@@ -19,3 +19,12 @@ The main objective of this project is to provide an easy automated vaccination m
 - The website will show the facilities about the vaccination program.
 -	The users can easily get the details from the website.
 -	Reducing the physical effort and saving the time of the user will be an added advantage of the website.
+
+### **Benefits**
+
+-	This application is very useful for finding a proper vaccine with a short period of time with less effort.
+-	No need to be an expert to use this application. (Easy to use)
+-	Accurate.
+-	An easy and simplified way to search and get the relevant data.
+-	User friendly.
+-	Reduce human errors.
