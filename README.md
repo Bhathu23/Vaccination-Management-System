@@ -11,3 +11,10 @@ Getting vaccinated could save your life. COVID-19 vaccines provide strong protec
 In Sri Lanka also government provide vaccination program as district and division wise. However, Sri Lanka has challenging vaccine and cold chain management landscape where factors such as scarcity of trained professionals, hot temperatures, and paucity of suitable arteries for transport pose considerable problems. As well as all paper work handle by manually and take long time to registration and vaccination.
 
 This application will be very useful to developing an automated vaccination management system. And it’s time less work for user. We can introduce this application to hospitals and MOH offices. This application will provide all the details about the vaccination places, registration details, vaccine types. MOH and GS also can access and update their division details also. It’s very helpful for government and people. 
+
+Objectives
+The main objective of this project is to provide an easy automated vaccination management system for the users. The specific objectives are illustrated as below:
+•	The website will show the vaccine details in a certain place and vaccination details.
+•	The website will show the facilities about the vaccination program.
+•	The users can easily get the details from the website.
+•	Reducing the physical effort and saving the time of the user will be an added advantage of the website.
