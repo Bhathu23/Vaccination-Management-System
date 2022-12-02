@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect("localhost","root","","vaccination_management_system");
+$connect = mysqli_connect("localhost","root","","covidtmsdb");
 if (isset($_POST['submit'])) {
     /*if (isset($_POST['username']) && isset($_POST['email']) &&
         isset($_POST['password']) && isset($_POST['cpassword']) &&
@@ -10,7 +10,6 @@ if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $password = $_POST['password'];
         $cpassword = $_POST['cpassword'];
-        $usertype = $_POST['usertype'];
 
         /*$host = "localhost";
         $dbUsername = "root";
@@ -24,7 +23,7 @@ if (isset($_POST['submit'])) {
         }*/
         /*else {
             $Select = "SELECT email FROM register WHERE email = ? LIMIT 1";*/
-            $query = "INSERT INTO register(username, email, password, cpassword, usertype) values('$username', '$email', '$password', '$cpassword', '$usertype')";
+            $query = "INSERT INTO register(username, email, password, cpassword) values('$username', '$email', '$password', '$cpassword')";
 
             $result = mysqli_query($connect,$query);
 
